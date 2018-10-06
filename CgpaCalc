@@ -1,0 +1,70 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+
+
+class CgpaCalc {
+
+  public static void main (String [] args){
+           Scanner var = new Scanner(System.in);
+       int courseNumber[]=new int[3];
+       int credit [] = new int[3];
+       int marks [] = new int[3];
+for(int i=0;i<3;i++) {        
+
+    System.out.println("Enter Course Number");
+     courseNumber[i]=var.nextInt();
+     System.out.println("Enter Credit ");
+     credit[i]=var.nextInt();
+    System.out.println("Enter marks ");
+   marks [i] = var.nextInt();
+}
+   double cgpa [] = new double[3];
+   for(int i=0;i<3;i++){
+  if(marks[i]>= 83 && marks[i]<=86)
+  cgpa[i]= 3.00;
+if(marks[i]>=87 && marks[i]<=89)
+cgpa[i]=3.30;
+if(marks[i]>=90 && marks[i]<=92)
+cgpa[i]=3.7;
+if(marks[i]>=93)
+cgpa[i]=4.00;
+if(marks[i]<=82)
+cgpa[i]=0.00;
+}
+ 
+double totalCGPA []= new double[3];
+
+for(int i=0;i<3;i++){
+ totalCGPA[i]= credit[i]*cgpa[i];
+}
+
+double arraySum = 0;
+double gradeSum=0;
+double p[] = new double[3];
+for(int i=0;i<3;i++){
+arraySum= arraySum+credit[i];
+
+p[i]= credit[i]*cgpa[i];
+gradeSum= gradeSum +p[i];
+
+}
+
+
+
+   
+
+double finalcgpa= gradeSum/arraySum;
+
+System.out.println("Final Cgpa = "+finalcgpa);
+
+
+ }
+
+}
+
+
+   
+  
+   
