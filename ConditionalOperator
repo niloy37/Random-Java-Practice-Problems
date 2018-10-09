@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+
+
+class ConditionalOperator {
+public static void main (String [] args) {
+
+ Scanner var = new Scanner(System.in);
+ 
+ System.out.println("Enter Integer 1 ");
+ int x = var.nextInt();
+  System.out.println("Enter Integer 2");
+  
+  int y = var.nextInt();
+  
+  
+  int z=(x>y)?x:y;
+  
+   System.out.println("Larger number is "+z);
+
+}
+
+}
+ 
