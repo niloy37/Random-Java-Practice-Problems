@@ -1,0 +1,24 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class SwitchCase {
+
+public static void main (String [] args ) {
+
+System.out.println("Enter number of the day =");
+Scanner var = new Scanner(System.in);
+int x = var.nextInt();
+
+switch(x) {
+case 1 : 
+case 2 :
+case 3 :
+case 4 :
+case 5 : System.out.println("Weekday");break;
+case 6 :
+case 7 :System.out.println("Weekend");break;
+}
+
+}
+}
