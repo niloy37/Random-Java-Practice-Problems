@@ -1,0 +1,12 @@
+import java.util.*;
+
+class DecToOctTwo {
+public static void main (String [] args) {
+System.out.println("Enter a decimal integer - ");
+Scanner var = new Scanner(System.in);
+int x = var.nextInt();
+
+String OctalString = Integer.toOctalString(x);
+System.out.println("Octar number - "+OctalString);
+}
+}
