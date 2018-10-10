@@ -1,0 +1,29 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+
+ class DecToOct {
+ public static void main (String [] args){
+  System.out.println("Enter a decimal integer :" );
+  
+ Scanner var = new Scanner(System.in);
+  int x = var.nextInt();
+  int rem ;
+  String str = "";
+  char dig[] = { '0','1','2','3','4','5','6','7'};
+  while (x>0){
+  rem = x%8;
+  str = dig[rem]+str;
+  x = x/8;
+  
+  
+  }
+  System.out.println("Octal Number is " +str);
+  
+  
+ 
+ 
+ 
+ }
+ }
