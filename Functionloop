@@ -1,0 +1,25 @@
+import java.util.*;
+
+
+class Functionloop{
+
+public static void main(String [] args){
+a();
+
+}
+
+
+public static void a() {
+
+System.out.println("This is A ");
+b();
+}
+
+
+public static void b(){
+
+System.out.println("This is B ");
+a();
+}
+
+}
