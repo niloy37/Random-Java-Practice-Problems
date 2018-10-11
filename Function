@@ -1,0 +1,27 @@
+import java.util.*;
+import java.io.*;
+import java.lang.*;
+
+
+class Function {
+public static void main (String [] args){
+   Scanner var = new Scanner(System.in);
+   System.out.println("Enter Two Integers ");
+   int x = var.nextInt();  
+    int y = var.nextInt();
+ System.out.println("The addition is : "+funcAdd(x,y));
+System.out.println("The Subtraction is : "+funcSub(x,y));
+
+
+}
+
+ public static int funcAdd(int x,int y){
+ 
+  return x+y;
+}
+public static int funcSub(int x,int y){
+ 
+  return x-y;
+}
+
+}
