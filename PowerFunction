@@ -1,0 +1,29 @@
+import java.util.*;
+import java.io.*;
+import java.lang.*;
+
+
+class Power {
+public static void main (String [] args){
+
+System.out.println("Enter a number  then the power");
+Scanner var = new Scanner(System.in);
+int x = var.nextInt();
+int y = var.nextInt();
+System.out.println(powerFunction(x,y));
+
+}
+
+public static int powerFunction(int x,int y){
+int result=1;
+for(int i=0;i<y;i++){
+result = result*x;
+}
+return result;
+
+
+}
+}
+
+
+
