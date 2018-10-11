@@ -1,0 +1,28 @@
+import java.util.*;
+
+class Fibonacci{
+public static void main (String [] args){
+System.out.println("Enter the nth term ");
+Scanner var =new Scanner (System.in);
+int x = var.nextInt();
+System.out.println("The nth term is "+Fibonacci(x));
+
+ 
+}
+
+
+public static int Fibonacci (int x){
+
+int fibonacci;
+if(x==1)
+return 0;
+else if(x==2)
+return 1;
+else return Fibonacci(x-1) + Fibonacci(x-2);
+ 
+
+   
+
+
+} 
+}
