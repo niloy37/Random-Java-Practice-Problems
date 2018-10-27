@@ -8,6 +8,7 @@ public class Mrh1Question {
 			else 
 				System.out.println("$$$$");
 		System.out.println("#####");
+		//First and third line will be printed
 	}
 
 }
