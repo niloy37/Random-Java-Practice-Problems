@@ -1,0 +1,3 @@
+ Array is passed by reference and Variable is passed by Value.
+ Variables in a method are local, but array passed through reference can be accessed from any method.
+ It is possible to change/update the value of the orginal array from any method that can be both an advantage and disadvantage at the same time,changes made in the method are directly done to the array while only the local varibale is changed in the method where a variable is passed by value
