@@ -45,6 +45,6 @@ public class FindingMinorMax {
 				maxIndex=i;
 			}
 		}
-		System.out.println("Max found! Min value = "+max+" Max index= "+maxIndex);
+		System.out.println("Max found! Max value = "+max+" Max index= "+maxIndex);
 	}
 }
