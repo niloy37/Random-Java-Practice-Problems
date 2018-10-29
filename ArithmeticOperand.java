@@ -5,9 +5,9 @@ public static void main(String[] args) {
 	System.out.println("Enter arithmetic operator(+ - * /)");
      char operator =var.next().charAt(0);
      
-     System.out.println("Enter 1st operator");
+     System.out.println("Enter 1st operand");
      int x=var.nextInt();
-     System.out.println("Enter 2nd operator");
+     System.out.println("Enter 2nd operand");
      int y=var.nextInt();
      
      
