@@ -44,7 +44,7 @@ public static void selectionSort(int [] array) {
 }
 public static int binarySearch(int [] array) {
 	int low =0;
-	int high = array.length;
+	int high = array.length-1;
 	int Index=-1;
 	Scanner var = new Scanner(System.in);
 	System.out.println("Enter the Key you want to search for");
