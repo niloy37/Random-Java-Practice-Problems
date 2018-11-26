@@ -18,7 +18,7 @@ public static void main(String [] args) {
 public static int bigmod(String s , int a) {
 	int res=0;
 	for(int i=0;i<s.length();i++) {
-		res = (res*10+(s.charAt(i)-'0'))%a;
+		res = (res*10+(int)(s.charAt(i)-'0'))%a;
 	}
 	return res;
 	
