@@ -1,0 +1,9 @@
+ex2 -A
+
+Error: Main method not found in class temp.hello, please define the main method as:
+   public static void main(String[] args)
+   
+   
+   ex2 -B
+ Eror: Main method not found in class temp.hello, please define the main method as:
+   public static void main(String[] args)
